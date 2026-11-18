@@ -4,7 +4,7 @@ def test_deposit():
     totalBalance, updatedBalance = bankOper(200000, 30000, 0)
 
     assert totalBalance == 230000
-    assert updatedBalance == 23000
+    assert updatedBalance == 230000
 
 def test_withdraw():
     totalBalance, updatedBalance = bankOper(100000, 40000, 10000)
