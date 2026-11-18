@@ -8,7 +8,7 @@ def bankOper(initialBal, deposit, withdraw):
 if __name__== "__main__":
     initialBal = int(sys.argv[1])
     deposit = int(sys.argv[2])
-    withdraw = int(sys.srgv[3])
+    withdraw = int(sys.argv[3])
 
     totalBal, updateBal = bankOper(initialBal, deposit, withdraw)
 
